@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main {
+    margin-top: 50px;
+    width: 100%;
+    min-height: 800px;
+}
+
+
+.mainInner {
+
+}
+.mainTitle {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.searchTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.searchInput {
+    width: 400px;
+    height: 40px;
+}
+
+.pageWrapper {
+    margin-top: 30px;
+    display: flex;
+    gap: 1rem;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+.pageCurrent {
+    padding: 10px;
+    border: 2px solid #333333;
+    font-weight: 600;
+}
